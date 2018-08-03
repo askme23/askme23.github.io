@@ -1,0 +1,56 @@
+body {
+    font-family: 'Roboto Mono', 'Ubuntu Mono', 'Arial', 'Helvetica', sans-serif;
+    background-color: white;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    display: flex;
+    height: 50px;
+    padding: 10px 30px;
+    background-color: rgb(224, 224, 224);
+    font-size: 22px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16), 0 3px 10px rgba(0, 0, 0, 0.23);
+    -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16), 0 3px 10px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16), 0 3px 10px rgba(0, 0, 0, 0.23);
+    -o-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16), 0 3px 10px rgba(0, 0, 0, 0.23); 
+}
+
+.main-header div {
+    margin-left: 100px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.main-header div a {
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 22px;
+    background-color: #007aaa;
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 7px 7px;
+    transition: 0.3s ease;
+    color: white;
+    margin-bottom: 5px;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px; 
+}
+
+.main-header div a:hover {
+    cursor: pointer;
+
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.8); 
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8); 
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8); 
+    -o-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8); 
+}
+
+.main-header div a:active {
+    background-color: #016c96; 
+}

@@ -1,0 +1,23 @@
+.container .photo{ 
+    margin-bottom: 20px;
+    width: 360px;
+    height: 430px; 
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16), 0 3px 10px rgba(0, 0, 0, 0.23);
+    transition: transform 0.6s ease;
+}
+
+/* .container .photo:hover {
+    cursor: pointer;
+    transform: scaleX(0);
+} */
+
+.container .skills,
+.container .about-myself {
+    width: 340px;
+}
+
+.container div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}

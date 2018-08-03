@@ -1,0 +1,35 @@
+body {
+    font-family: 'Roboto Mono', 'Ubuntu Mono', 'Arial', 'Helvetica', sans-serif;
+    background-color: white;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.grid-block {
+    background-color: rgb(243, 243, 243);
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    line-height: 1.5em;
+    text-align: justify;
+    
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16), 0 3px 10px rgba(0, 0, 0, 0.23);
+    -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16), 0 3px 10px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16), 0 3px 10px rgba(0, 0, 0, 0.23);
+    -o-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16), 0 3px 10px rgba(0, 0, 0, 0.23); 
+}
