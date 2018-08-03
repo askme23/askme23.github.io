@@ -1,9 +1,8 @@
-.container .photo{ 
+.container img{ 
     margin-bottom: 20px;
-    width: 360px;
-    height: 430px; 
+    display: block;
+    max-width: 100%;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16), 0 3px 10px rgba(0, 0, 0, 0.23);
-    transition: transform 0.6s ease;
 }
 
 /* .container .photo:hover {
@@ -12,12 +11,31 @@
 } */
 
 .container .skills,
-.container .about-myself {
-    width: 340px;
+.container .about-myself,
+.container .photo {
+    width: 90%;
 }
 
 .container div:first-child {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    width: 30%;
+    margin-right: 20px;
+}
+
+.container .expirience {
+    width: 60%;
+}
+
+@media (max-width: 1000px) {
+    .grid-block {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 600px) {
+    .grid-block {
+        font-size: 15px;
+    }
 }

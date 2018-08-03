@@ -2,6 +2,7 @@
     flex-direction: column;
     font-size: 18px;
     align-items: center;
+    text-align: center;
 
     background-color: rgb(243, 243, 243);
     padding: 10px;
@@ -52,4 +53,15 @@
     -webkit-box-shadow: 0 0 10px rgba(109,165,238,0.65);
     -moz-box-shadow: 0 0 10px rgba(109,165,238,0.65);
     -o-box-shadow: 0 0 10px rgba(109,165,238,0.65);
+}
+
+@media (max-width: 570px) {
+    .container .count-of-terms, 
+    .container .terms .term {
+        width: 90%
+    }
+
+    .container h1 {
+        font-size: 22px;
+    }
 }
